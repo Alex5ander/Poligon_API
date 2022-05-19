@@ -13,7 +13,7 @@ namespace POLIGON_API
         {
             this.Lados = Lados;
         }
-        public abstract double Area;
+        public abstract double Area();
         public double Perimetro()
         {
             return Lados.Sum();
