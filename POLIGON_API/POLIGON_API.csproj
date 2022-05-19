@@ -43,6 +43,7 @@
     <Compile Include="Pentagono.cs" />
     <Compile Include="Poligono.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Retangulo.cs" />
     <Compile Include="Triangulo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

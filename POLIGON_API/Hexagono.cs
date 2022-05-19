@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace POLIGON_API
 {
-    class Hexagono
+    public class Hexagono : Poligono
     {
+        public Hexagono(List<double> Lados) : base(Lados)
+        {
+
+        }
+        public override double Area()
+        {
+            return ((3 * Math.Sqrt(3)) * Math.Pow(Lados[0], 2)) / 2;
+        }
     }
 }
